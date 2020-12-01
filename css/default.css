@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+	/**
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.6;
+}
+img{
+	max-width: 100%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container{
+	width: calc(100% - 300px);
+	margin: auto;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.col{}
+.col_1{}
+.col_2{}
+.col_3{}
+.col_4{}
+.col_5{}
+.col_6{}
+.col_7{}
+.col_8{}
+.col_9{}
+.col_10{}
+.justify_center{
+	justify-content: center;
+}
+.justify_between{
+	justify-content: space-between;
+}
+.justify_end{
+	justify-content: flex-end;
+}
+.align_center{
+	align-items: center;
+}
+p{}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
